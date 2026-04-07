@@ -1,0 +1,7 @@
+title: foxineo Legal
+description: Privacy policies and legal pages for foxineo apps
+theme: jekyll-theme-cayman
+
+# Tell Jekyll where pages live
+include:
+  - notepatch
