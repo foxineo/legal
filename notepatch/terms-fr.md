@@ -23,8 +23,7 @@ Les fonctions principales — scan, recadrage, masquage, impression, calibration
 
 NotePatch Pro est un abonnement optionnel à renouvellement automatique qui débloque des fonctionnalités supplémentaires, notamment la reconnaissance de texte par IA.
 
-- **Mensuel :** 3,99 $/mois (USD)
-- **Annuel :** 24,99 $/an (USD)
+- Plan mensuel ou annuel — le plan annuel est plus avantageux
 - Les prix peuvent varier selon la région. Le prix réel est affiché dans l'App Store avant l'achat.
 - Essai gratuit de 7 jours pour les nouveaux abonnés.
 
