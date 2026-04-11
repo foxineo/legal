@@ -18,40 +18,41 @@ We try to respond within 1–2 business days.
 
 ### How do I scan a note?
 
-Tap **Start Your Patch** on the home screen, then choose **Scan Document**. Use the camera to capture the page; NotePatch automatically detects the edges. You can also pick existing photos from your library with **Choose from Library**.
+Tap **Start Your Patch** on the home screen, then choose **Scan Document** to capture with the camera, or **Choose from Library** to import existing photos.
 
 ### How do I make the printed patch the right size?
 
-In the editor, use the physical-width slider at the bottom to set the exact size in inches. The live preview shows how the patch will look on US Letter or A4 paper. If the printed result is slightly off, use the **Calibration** tool in Settings — print the reference line, measure it with a ruler, and enter the actual length.
+Use the physical-width slider in the editor to set the exact size. If the printed result is slightly off, use **Calibration** in Settings — print the reference line, measure it with a ruler, and enter the actual length. This is a one-time setup.
 
-### Why is my printed patch slightly larger or smaller than I asked for?
+### What is Smart Text?
 
-Different printers and printer drivers scale prints slightly differently. Use the **Calibration** tool in Settings → Calibration to dial in your specific printer. This is a one-time setup.
+Smart Text extracts text from images — handwritten notes, printed pages, photos, or mixed layouts. Two modes are available:
 
-### Does NotePatch upload my notes anywhere?
+- **On-device OCR:** Free, works offline. Uses Apple's Vision framework.
+- **AI recognition (Pro):** Higher accuracy for messy handwriting, formulas, tables, and mixed content. Sends the image to a secure cloud API for processing.
 
-**No.** NotePatch is fully offline. Your notes, scans, and edits stay on your device. The only time anything leaves your phone is when you choose to send a PDF to your printer (over your local network) or share it via the iOS share sheet.
+### Does NotePatch upload my data?
 
-### Why does NotePatch ask for camera and photo library permission?
+Core features (scan, crop, mask, print) are **fully offline**. The only time data leaves your device is when you:
 
-- **Camera:** to scan handwritten notes with the document scanner.
-- **Photo Library (read):** to import existing photos and screenshots.
-- **Photo Library (add, optional):** if you choose to save a processed patch back to your library.
+- Print to a printer you select (over your local network)
+- Share a PDF via the iOS share sheet
+- Use AI recognition (Pro), which sends the selected image to a cloud API for text extraction — images are not stored or used for training
 
-You can revoke or change these permissions any time in iOS **Settings → Privacy & Security**.
+### What is NotePatch Pro?
+
+An optional subscription that unlocks AI-powered text recognition and future premium features. Core features remain free forever. You can manage or cancel your subscription in iOS Settings → Apple ID → Subscriptions.
+
+### How do I restore my subscription?
+
+Go to Settings → NotePatch Pro → Restore Purchases.
 
 ### What devices does NotePatch support?
 
 iPhone and iPad running iOS 17.6 or later.
 
-### Is there an Android version?
-
-Not currently.
-
-### Where can I read the Privacy Policy?
-
-→ [Privacy Policy](./privacy.html)
-
 ---
+
+[Privacy Policy](./privacy.html) · [Terms of Use](./terms.html)
 
 [← Back to NotePatch](./) · [foxineo Legal](../)

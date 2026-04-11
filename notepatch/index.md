@@ -26,7 +26,11 @@ Turn handwritten notes and screenshots into perfectly sized printable patches yo
 
 ### Support
 
-- 💬 [Support](./support.html)
+- 🇺🇸 [English](./support.html)
+- 🇨🇳 [简体中文](./support-zh-hans.html)
+- 🇹🇼 [繁體中文](./support-zh-hant.html)
+- 🇪🇸 [Español](./support-es.html)
+- 🇫🇷 [Français](./support-fr.html)
 
 ---
 
