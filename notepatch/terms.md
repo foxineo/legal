@@ -24,7 +24,7 @@ Core features — scanning, cropping, masking, printing, calibration, and on-dev
 NotePatch Pro is an optional auto-renewable subscription that unlocks additional features, including AI-powered text recognition.
 
 - **Monthly:** $3.99/month (USD)
-- **Annual:** $19.99/year (USD)
+- **Annual:** $24.99/year (USD)
 - Prices may vary by region. The actual price is displayed in the App Store before purchase.
 - A 7-day free trial is available for new subscribers.
 
