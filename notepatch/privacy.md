@@ -5,22 +5,22 @@ title: NotePatch Privacy Policy
 # NotePatch Privacy Policy
 
 **Effective Date:** 2026-04-07
-**Last Updated:** 2026-04-07
+**Last Updated:** 2026-04-11
 
 This Privacy Policy describes how NotePatch ("we", "our", or "the app") handles information when you use the NotePatch iOS application.
 
 ## Our Position on Privacy
 
-NotePatch is designed to be **completely private by default**. We do not collect, transmit, store on remote servers, or share any of your personal data, content, or usage information.
+NotePatch is designed to be **private by default**. Core features — scanning, cropping, masking, and printing — work entirely offline with no account required. We do not collect, transmit, or share any personal data unless you explicitly choose to use a feature that requires it.
 
 ## Information We Do NOT Collect
 
 - We do **not** collect personal identifiers (name, email, phone number, account ID).
 - We do **not** collect device identifiers (IDFA, IDFV, advertising ID).
 - We do **not** track your usage of the app.
-- We do **not** use analytics, crash reporting, or telemetry services of any kind.
-- We do **not** include any third-party SDKs that collect data.
-- We do **not** access your contacts, calendar, location, microphone, or any data unrelated to the core features.
+- We do **not** use analytics, crash reporting, or telemetry services.
+- We do **not** include any advertising or tracking SDKs.
+- We do **not** access your contacts, calendar, location, microphone, or any data unrelated to core features.
 
 ## Information You Provide to the App (Stored Locally Only)
 
@@ -28,10 +28,33 @@ To function, NotePatch needs access to certain device features. All resulting da
 
 | Permission | Why It Is Needed | Where the Data Goes |
 |---|---|---|
-| **Camera** | To scan handwritten notes or pages of a book using the document scanner | The captured image is processed entirely on-device. It is never uploaded. |
-| **Photo Library (Read)** | To import existing photos and screenshots so you can turn them into patches | NotePatch only references the original asset by its Photos library identifier. We do not copy the original image into the app's storage. |
-| **Photo Library (Add)** | (Optional) To save processed patches back to your Photos library if you choose to | Only happens when you explicitly trigger an export action. |
-| **Printer (AirPrint)** | To send the generated PDF directly to a nearby printer over your local network | The PDF is sent only to the printer you select. |
+| **Camera** | To scan handwritten notes or pages using the document scanner | Processed entirely on-device. Never uploaded. |
+| **Photo Library (Read)** | To import existing photos and screenshots to turn into patches | NotePatch references the original asset by its Photos library identifier. |
+| **Photo Library (Add)** | (Optional) To save processed patches back to your Photos library | Only happens when you explicitly trigger an export action. |
+| **Printer (AirPrint)** | To send the generated PDF to a nearby printer over your local network | Sent only to the printer you select. |
+
+## Smart Text AI Recognition (Pro Feature)
+
+NotePatch offers two text recognition modes:
+
+### On-Device OCR (Free)
+
+On-device OCR uses Apple's built-in Vision framework to extract text from images. All processing happens locally on your device. **No data is transmitted.**
+
+### AI Recognition (Pro Only)
+
+When you explicitly choose AI recognition, the selected image is sent to a secure third-party cloud API for text extraction.
+
+- **What is sent:** Only the image you selected for recognition.
+- **How it is processed:** The image is used solely for text extraction.
+- **Data retention:** The image is **not stored, not logged, and not used for model training** by the API provider.
+- **When it happens:** Only when you explicitly tap the AI recognition option. It never happens automatically or in the background.
+
+No other network requests are made by the app. NotePatch functions normally in airplane mode — AI recognition simply shows an offline message.
+
+## Subscription and Billing
+
+NotePatch Pro subscriptions are processed entirely by Apple through the App Store. We do not collect or have access to your payment information, credit card details, or Apple ID.
 
 ## How We Store Your Data
 
@@ -39,7 +62,7 @@ To function, NotePatch needs access to certain device features. All resulting da
 - Nothing leaves your device except when:
   - You print to a printer you have selected (sent over your local network only).
   - You explicitly share a generated PDF using iOS's standard share sheet.
-- We do not have a backend server. There is no NotePatch account.
+  - You explicitly use AI recognition (Pro), which sends the selected image to a cloud API as described above.
 
 ## Children's Privacy
 
@@ -51,7 +74,7 @@ Because NotePatch does not collect or store any personal data on our side, there
 
 ## Changes to This Policy
 
-If we ever change how the app handles data, we will update this policy and indicate the change with a new "Last Updated" date. Material changes will be reflected in the App Store update notes.
+If we change how the app handles data, we will update this policy and indicate the change with a new "Last Updated" date. Material changes will be reflected in the App Store update notes.
 
 ## Contact
 
@@ -61,6 +84,6 @@ If you have any questions about this privacy policy, you can reach us at:
 
 ---
 
-*This policy is intentionally short because NotePatch is intentionally simple: nothing leaves your device unless you explicitly send it somewhere.*
+*NotePatch's core features remain fully offline and private. The only time data leaves your device is when you explicitly choose to print, share, or use AI recognition.*
 
 [← Back to NotePatch](./) · [foxineo Legal](../)

@@ -8,12 +8,25 @@ Turn handwritten notes and screenshots into perfectly sized printable patches yo
 
 ## Legal & Support
 
-- 📄 [Privacy Policy](./privacy.html)
+### Privacy Policy
+
+- 🇺🇸 [English](./privacy.html)
+- 🇨🇳 [简体中文](./privacy-zh-hans.html)
+- 🇹🇼 [繁體中文](./privacy-zh-hant.html)
+- 🇪🇸 [Español](./privacy-es.html)
+- 🇫🇷 [Français](./privacy-fr.html)
+
+### Terms of Use
+
+- 🇺🇸 [English](./terms.html)
+- 🇨🇳 [简体中文](./terms-zh-hans.html)
+- 🇹🇼 [繁體中文](./terms-zh-hant.html)
+- 🇪🇸 [Español](./terms-es.html)
+- 🇫🇷 [Français](./terms-fr.html)
+
+### Support
+
 - 💬 [Support](./support.html)
-
-## About
-
-NotePatch is a fully offline iOS app. No accounts, no servers, no analytics, no tracking. Your notes stay on your device.
 
 ---
 
