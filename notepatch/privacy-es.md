@@ -5,7 +5,7 @@ title: NotePatch Política de Privacidad
 # NotePatch — Política de Privacidad
 
 **Fecha de vigencia:** 2026-04-07
-**Última actualización:** 2026-04-11
+**Última actualización:** 2026-05-06
 
 Esta Política de Privacidad describe cómo NotePatch ("nosotros" o "la app") gestiona la información cuando usas la aplicación NotePatch para iOS.
 
@@ -33,22 +33,22 @@ Para funcionar, NotePatch necesita acceso a ciertas funciones del dispositivo. T
 | **Fototeca (escritura)** | (Opcional) Guardar parches procesados en la fototeca | Solo ocurre cuando tú inicias la exportación. |
 | **Impresora (AirPrint)** | Enviar el PDF generado a una impresora cercana por red local | Solo se envía a la impresora que selecciones. |
 
-## Reconocimiento de texto con IA de Smart Text (función Pro)
+## Reconocimiento de texto Smart Text
 
 NotePatch ofrece dos modos de reconocimiento de texto:
 
-### OCR en dispositivo (gratuito)
+### OCR en dispositivo
 
 El OCR en dispositivo utiliza el framework Vision de Apple para extraer texto de imágenes. Todo el procesamiento ocurre localmente. **No se transmite ningún dato.**
 
-### Reconocimiento IA (solo Pro)
+### Reconocimiento IA (incluido Smart Fix)
 
-Cuando eliges el reconocimiento IA, la imagen seleccionada se envía a una API en la nube segura de terceros para la extracción de texto.
+Cuando eliges el reconocimiento IA — o usas Smart Fix para volver a reconocer una fuente con una sugerencia — la imagen seleccionada se envía a una API en la nube segura de terceros para la extracción de texto. Los usuarios gratuitos disponen de una cuota vitalicia de reconocimientos IA gratuitos; los suscriptores Pro tienen acceso ilimitado.
 
-- **Qué se envía:** Únicamente la imagen que seleccionaste para el reconocimiento.
-- **Cómo se procesa:** La imagen se usa exclusivamente para la extracción de texto.
-- **Retención de datos:** El proveedor de la API **no almacena, no registra ni usa la imagen para entrenar modelos**.
-- **Cuándo ocurre:** Solo cuando pulsas la opción de reconocimiento IA. Nunca ocurre de forma automática ni en segundo plano.
+- **Qué se envía:** La imagen que seleccionaste para el reconocimiento. Cuando usas Smart Fix, la sugerencia opcional que proporcionas (una etiqueta breve como "esto es una fórmula matemática", o una de las opciones predefinidas como "🎨 La imagen completa es una ilustración") se envía junto con la imagen.
+- **Cómo se procesa:** La imagen y la sugerencia que proporciones se usan exclusivamente para la extracción de texto.
+- **Retención de datos:** El proveedor de la API **no almacena, no registra ni usa la imagen ni la sugerencia para entrenar modelos**.
+- **Cuándo ocurre:** Solo cuando pulsas la opción de reconocimiento IA o seleccionas/escribes una sugerencia de Smart Fix. Nunca ocurre de forma automática ni en segundo plano.
 
 La app no realiza ninguna otra solicitud de red. NotePatch funciona con normalidad en modo avión — el reconocimiento IA simplemente muestra un mensaje de sin conexión.
 

@@ -5,7 +5,7 @@ title: NotePatch Privacy Policy
 # NotePatch Privacy Policy
 
 **Effective Date:** 2026-04-07
-**Last Updated:** 2026-04-11
+**Last Updated:** 2026-05-06
 
 This Privacy Policy describes how NotePatch ("we", "our", or "the app") handles information when you use the NotePatch iOS application.
 
@@ -33,22 +33,22 @@ To function, NotePatch needs access to certain device features. All resulting da
 | **Photo Library (Add)** | (Optional) To save processed patches back to your Photos library | Only happens when you explicitly trigger an export action. |
 | **Printer (AirPrint)** | To send the generated PDF to a nearby printer over your local network | Sent only to the printer you select. |
 
-## Smart Text AI Recognition (Pro Feature)
+## Smart Text Recognition
 
 NotePatch offers two text recognition modes:
 
-### On-Device OCR (Free)
+### On-Device OCR
 
 On-device OCR uses Apple's built-in Vision framework to extract text from images. All processing happens locally on your device. **No data is transmitted.**
 
-### AI Recognition (Pro Only)
+### AI Recognition (and Smart Fix)
 
-When you explicitly choose AI recognition, the selected image is sent to a secure third-party cloud API for text extraction.
+When you explicitly choose AI recognition — or use Smart Fix to re-recognize a source image with a hint — the selected image is sent to a secure third-party cloud API for text extraction. Free users have a lifetime quota of free AI recognitions; Pro subscribers have unlimited access.
 
-- **What is sent:** Only the image you selected for recognition.
-- **How it is processed:** The image is used solely for text extraction.
-- **Data retention:** The image is **not stored, not logged, and not used for model training** by the API provider.
-- **When it happens:** Only when you explicitly tap the AI recognition option. It never happens automatically or in the background.
+- **What is sent:** The image you selected for recognition. When you use Smart Fix, the optional hint text you provide (a short label such as "this is a math formula", or one of the preset choices like "🎨 Whole thing is an illustration") is sent alongside the image.
+- **How it is processed:** The image and any provided hint are used solely for text extraction.
+- **Data retention:** Neither the image nor the hint is **stored, logged, or used for model training** by the API provider.
+- **When it happens:** Only when you explicitly tap the AI recognition option or pick / type a Smart Fix hint. It never happens automatically or in the background.
 
 No other network requests are made by the app. NotePatch functions normally in airplane mode — AI recognition simply shows an offline message.
 
